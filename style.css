@@ -965,7 +965,9 @@ margin-bottom: 10px;
             
              font-size: 15px;
          }
-    
+    .cta{
+        height: 60vh;
+    }
          
     .cta-text{
         max-width:560px ; 
