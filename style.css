@@ -1071,11 +1071,8 @@ margin-bottom: 10px;
         }
         .home-img img{
            width: 80%;
-           height: auto; 
-           /* margin-left: 2rem; */
-           /* display: block;
-           margin-left: auto;
-           margin-right: auto; */
+           height:auto;
+          
            
         }
         .home-text h4{
@@ -1202,6 +1199,9 @@ margin-bottom: 10px;
              font-size: 15px;
          }
    
+         .cta{
+            height: 70vh;
+         }
          
     .cta-text{
         max-width:560px ; 
