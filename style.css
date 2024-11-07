@@ -463,7 +463,7 @@ color: var(--other-color);
        
         padding: 10px 20px;
         font-size: 10px;
-        margin-bottom: 1.5rem;
+        margin-bottom: 5px;
         
     }
 
@@ -526,7 +526,11 @@ color: var(--other-color);
 /* .cta-text{
     max-width:560px ;
     margin-left: 120px;
-} */
+} */.cta-text .logo img{
+    width: 50px;
+margin-bottom: 10px;
+}
+
 
 /* .cta-text .logo img{
     width: 100px;

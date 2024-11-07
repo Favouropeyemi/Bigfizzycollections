@@ -58,4 +58,4 @@ sr.reveal('.feature, .product, .cta-content, .contact', { delay: 200, origin: 't
 
 
 let date = new Date().getFullYear();
-document.querySelector('.end-text').textContent = date;
+document.querySelector('#year').textContent = date; // Only update the year
