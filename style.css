@@ -979,7 +979,7 @@ margin-bottom: 10px;
 }
 
 
-@media (max-width: 390px){
+@media (max-width: 395px){
     .navbar{
         background: var(--bg-color);
         display: flex;
@@ -1196,17 +1196,18 @@ margin-bottom: 10px;
     }
     
      .cta-text .logo img{
-        width: 100px;
+        width: 50px;
         height: auto;
+        margin-left: 1rem;
         margin-bottom: 1.5rem;
     } 
     
     .cta-text h3{
-        font-size:1.3rem ;
+        font-size:1rem ;
         
     }
     .cta-text p{
-      font-size: 16px;
+      font-size: 12px;
       
     }
 }
