@@ -369,7 +369,7 @@ background: #fef2f2;
 text-align: center;
 padding: 20px;
 font-size: 14px;
-letter-spacing: 1px;
+/* letter-spacing: 1px; */
 color: var(--other-color);
 }
 
