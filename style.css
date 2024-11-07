@@ -378,16 +378,37 @@ color: var(--other-color);
 }
 
 @media (max-width: 991px){
-    .navbar a{
-        font-size: 14px;
-        padding: 10px 25px;
-        margin: 2px;
-       
+  
+    .navbar{
+        background: var(--bg-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 125vh;
+        width: 300px;
+        position: absolute;
+        top: 100%;
+        right: 100%;
     }
-
+        .navbar a{
+            display: block;
+            font-size: 12px;
+            color: var(--other-color);
+            font-weight: 400;
+            padding: 5px 15px;
+            margin: 1.1rem 0;
+            background: transparent;
+            border-radius: 30px;
+            transition: all .45s ease;
+        }
+    
+        .navbar.open{
+            right: 0;
+        }
+    
     .header-logo p{
         font-size: 12px;
-        margin-top: 1rem;
+        margin-top: 1.1rem;
         margin-right: 5px;
     }
     .icons i{
@@ -402,7 +423,19 @@ color: var(--other-color);
         width: 50px;
         margin-right: 1rem;
     }
-    
+    #menu-icon{
+        display: initial;
+        /* background: none; */
+        height: 50px;
+        width: 50px;
+        /* background: #f7f0fb; */
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        color: var(--other-color);
+        font-size: 32px;
+    }
 
     .home{
         height: 100vh;
@@ -430,6 +463,7 @@ color: var(--other-color);
        
         padding: 10px 20px;
         font-size: 10px;
+        margin-bottom: 1.5rem;
         
     }
 
@@ -500,6 +534,10 @@ color: var(--other-color);
     margin-bottom: 1.5rem;
 } */
 
+.cta-text .header-logo p{
+    margin-top: 2rem;
+}
+
 .cta-text h3{
     font-size:2.3rem ;
     
@@ -510,7 +548,8 @@ color: var(--other-color);
 }
 }
 
-@media (max-width: 767px){.navbar{
+@media (max-width: 767px){
+    .navbar{
     background: var(--bg-color);
     display: flex;
     flex-direction: column;
@@ -672,6 +711,11 @@ color: var(--other-color);
     height: auto;
     margin-bottom: 1.5rem;
 } */
+
+.cta-text .logo img{
+    width: 50px;
+    margin-bottom: 1rem;
+}
 
 .cta-text h3{
     font-size:2.3rem ;
