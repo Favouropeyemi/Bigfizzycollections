@@ -299,7 +299,7 @@ background: #fef2f2;
 
 .cta{
     background: url(advert2.jfif);
-    height: 70vh;
+    height: 90vh;
     background-size: cover;
     background-position: center;
     border-radius: 20px;
@@ -781,6 +781,17 @@ margin-bottom: 10px;
     height: auto;
     margin-bottom: 1.5rem;
 } */
+ 
+.cta{
+    background: url(advert2.jfif);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .cta-text .logo img{
     width: 50px;
